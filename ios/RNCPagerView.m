@@ -196,10 +196,6 @@
 
         [strongSelf setTransitioning:NO];
         
-        if (finished) {
-            strongSelf.transitioning = NO;
-        }
-        
         if (strongSelf.eventDispatcher) {
             if (strongSelf.lastReportedIndex != strongSelf.currentIndex) {
                 if (shouldCallOnPageSelected) {
