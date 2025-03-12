@@ -197,7 +197,7 @@
         [strongSelf setTransitioning:NO];
         
         if (finished) {
-            strongSelf.animating = NO;
+            strongSelf.transitioning = NO;
         }
         
         if (strongSelf.eventDispatcher) {
